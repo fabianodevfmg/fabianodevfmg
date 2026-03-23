@@ -23,7 +23,7 @@ O MAMBA é um **aplicativo para gestão de estudos de Vestibulares e Concursos**
 
 ---
 
-#### 🤝 Xácomigo
+#### 🤝 OXRV
 *Status: MVP / Operação*
 
 Marketplace de serviços freelance focado na conexão rápida entre prestadores locais e clientes.
