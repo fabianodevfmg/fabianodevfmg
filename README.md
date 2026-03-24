@@ -23,7 +23,7 @@ O MAMBA é um **aplicativo para gestão de estudos de vestibulares e concursos**
 
 ---
 
-#### 🤝 O Xis Resolve (OXRV)
+#### 🤝  OXRV
 *Status: MVP / operação inicial*
 
 O **OXRV** é um ecossistema de intermediação e orquestração de serviços projetado para operar com foco em **tempo real**, **segurança contextual**, **consistência transacional** e **evolução modular**.
