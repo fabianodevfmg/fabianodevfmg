@@ -1,75 +1,71 @@
-### Olá, eu sou o Fabiano Santos! 👋
+Olá, eu sou o Fabiano Santos 👋
 
-Sou **engenheiro têxtil** e **desenvolvedor de software**, combinando mais de **15 anos de experiência em gestão de processos** com tecnologia moderna.
+Desenvolvedor Full Stack · IA aplicada · São Paulo
 
-Atualmente, estou cursando o **Bacharelado em Tecnologia da Informação** e aplicando minha bagagem analítica na construção de soluções escaláveis.
+Engenheiro têxtil que virou desenvolvedor. Passei mais de 19 anos na indústria (qualidade, PCP e gestão de produto) e desde 2024 construo software com IA para problemas reais: serviços sob demanda, saúde pública e educação. Estou me formando Bacharel em Tecnologia da Informação na UNIVESP (dez/2026).
 
----
+Meu jeito de trabalhar vem da fábrica: medir antes de opinar, padronizar o que funciona e só considerar pronto o que passou no teste.
 
-### 🚀 Projetos em Destaque
+LinkedIn E-mail
 
-#### 🐍 MAMBA – Inteligência em Estudos
-*Status: Em desenvolvimento*
+🚀 Projetos em destaque
+ · OXRS Desenvolvimento e Soluções
 
-O MAMBA é um **aplicativo para gestão de estudos de vestibulares e concursos**. Diferente de planners convencionais, ele utiliza **IA e algoritmos de otimização** para promover organização, adaptação e alto desempenho, tanto para quem busca uma vaga na universidade quanto no serviço público.
 
-**🎥 [Assista à demo do projeto (YouTube)](https://www.youtube.com/watch?v=1ywQDaHAVIs&t=83s)**
+Marketplace 
 
-**Destaques técnicos:**
-* **IA tutora:** modelos de linguagem (LLMs) integrados para explicar erros, resumir conteúdos e apoiar a evolução do estudante.
-* **Planejamento dinâmico:** algoritmo que redistribui pesos e disciplinas automaticamente com base no desempenho real **e na data da prova**.
-* **Gamificação:** sistema de XP e streaks para combater a procrastinação e incentivar consistência.
-* **Stack:** React, Tailwind, Node.js e Supabase (Auth/DB).
+IA aplicada: assistente conversacional híbrido. As regras determinísticas decidem o fluxo e o LLM só reescreve as perguntas, o que deixa o comportamento previsível e auditável. RAG com pgvector responde só com base curada, para reduzir alucinação. Cliente multi-provedor (OpenAI, Anthropic, Gemini, DeepSeek, Kimi) com fallback, controle de custo e evals.
+Backend: PostgreSQL/Supabase com Row Level Security em todo o domínio, 130+ Edge Functions (Deno/TypeScript), máquinas de estado para pedido, contrato e pagamento, e webhooks idempotentes.
+Pagamentos: PIX e cartão com escrow (Pagar.me e Getnet), antifraude e LGPD.
+Segurança em campo: check-in com GPS, evidência por foto com verificação de integridade e botão de emergência.
+Qualidade: 1.160 testes automatizados (Jest, Cypress), 9 pipelines no GitHub Actions e monitoramento com Sentry.
 
----
+React Native Expo TypeScript Supabase PostgreSQL pgvector Deno LLMs RAG
 
-#### 🤝  OXRV
-*Status: MVP / operação inicial*
 
-O **OXRV** é um ecossistema de intermediação e orquestração de serviços projetado para operar com foco em **tempo real**, **segurança contextual**, **consistência transacional** e **evolução modular**.
 
-O núcleo do sistema vai além de conectar oferta e demanda: ele busca transformar entradas abertas e imprevisíveis em fluxos operacionais estruturados, auditáveis e escaláveis, respeitando regras de acesso, estados de execução e dependências de negócio.
+⏱️ T.E.M.P.O. · Tecnologia para Encaminhamento, Monitoramento e Priorização Oncológica
 
-* **Stack:** `SvelteKit`, `Supabase`, `PostgreSQL`, `Realtime`, `Auth`, `Storage`, `RLS`
-* **Pilares de engenharia:**
-  * isolamento de dados multiusuário com **Row Level Security**
-  * sincronização operacional em tempo real via eventos
-  * modelagem de estados e transições da jornada de serviço
-  * rastreabilidade ponta a ponta
-  * preparação para contratos, automações e inteligência operacional
-* **Problemas atacados:** concorrência de estados, consistência entre atores, governança de acesso, integridade dos fluxos e escalabilidade em um ambiente com múltiplas interações simultâneas.
-* **Direção arquitetural:** base preparada para camadas de mediação, auditoria, geração contratual, observabilidade e motores de orquestração mais sofisticados.
+Status: em desenvolvimento · Sebrae Supernova 2026 · revisão por pesquisadores do INCA
 
-> **Nota:** O código-fonte dos projetos acima é privado (propriedade intelectual), mas estou disponível para demonstrar a arquitetura e o funcionamento ao vivo.
+No câncer, o tempo entre a suspeita e o início do tratamento decide vidas. O TEMPO acompanha pacientes com suspeita ou diagnóstico de câncer ao longo da jornada no SUS, até o início do tratamento.
 
----
+App para Agentes Comunitários de Saúde: questionário gamificado, construído com metodologia validada de escalas de medida em saúde, e registro por foto para triagem.
+Monitoramento da jornada: acompanha exames, consultas e encaminhamentos e alerta a equipe sobre atrasos, faltas e risco de perda de seguimento.
+Priorização: organiza os casos por urgência, com foco nos cânceres que mais matam (pulmão, mama e próstata). Apoia a decisão do profissional, sem substituí-la.
+Painel com dados oficiais do SUS: nenhum número inventado.
 
-### 🛠️ Tech Stack
+Faço a liderança técnica de uma equipe da UNIVESP, com pesquisa de campo em UBSs de São Paulo e Osasco.
 
-Trabalho com ferramentas voltadas a performance, escalabilidade e construção de produto:
+App Dashboard Dados públicos Saúde digital
 
-* **Core:** Python, JavaScript/TypeScript, SQL
-* **Frontend:** SvelteKit, React, Tailwind CSS
-* **Backend & Cloud:** Supabase, Edge Functions, Node.js
-* **Interesses:** IA generativa, arquitetura de software e otimização de processos
+🐍 MAMBA · Inteligência em Estudos
 
----
+Status: concluído · 🎥 Assista à demo (YouTube)
 
-### 🧠 Estratégia & Criatividade
+App de gestão de estudos para vestibulares e concursos. Diferente de um planner comum, ele se adapta ao desempenho do aluno.
 
-Acredito que excelência técnica também nasce da combinação entre lógica, visão sistêmica e repertório criativo:
+IA tutora: LLMs explicam erros, resumem conteúdos e acompanham a evolução.
+Planejamento dinâmico: redistribui pesos e disciplinas automaticamente conforme o desempenho real e a data da prova.
+Gamificação: XP e streaks contra a procrastinação.
 
-* **♟️ Enxadrista:** estratégia e antecipação de cenários.
-* **🎼 Compositor:** criatividade estruturada e sensibilidade de construção.
-* **➗ Pensamento matemático:** gosto por lógica, modelagem e resolução de problemas complexos.
+React Tailwind Node.js Supabase
 
----
+Sobre o código: os repositórios desses projetos são privados (propriedade intelectual). Posso demonstrar arquitetura e funcionamento ao vivo.
 
-<div align="left">
-  <a href="mailto:fabiano.dev.fmg@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/fabiano-santos-783438381/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</div>
+🛠️ Stack
+Área	Ferramentas
+Linguagens	TypeScript, JavaScript, Python, SQL
+Mobile & Web	React Native, Expo, React, Tailwind CSS, HTML/CSS
+Backend & Dados	Supabase, PostgreSQL, Edge Functions (Deno), Node.js, APIs REST
+IA	LLMs (OpenAI, Anthropic, Gemini, DeepSeek), RAG, embeddings, pgvector, tool calling, MCP, agentes, evals, guardrails
+Qualidade & DevOps	Jest, Cypress, GitHub Actions, Sentry, Docker, Linux
+Gestão & Análise	Scrum, Kanban, Power BI, Excel avançado, CEP/Minitab
+🎓 Formação
+Bacharelado em Tecnologia da Informação, UNIVESP (conclusão dez/2026)
+Mestrado em Engenharia de Computação, Poli-USP (processo seletivo 2026), com pesquisa em sensoriamento viário com IA e IoT
+Engenharia Têxtil, SENAI CETIQT
+🧠 Além do código
+♟️ Enxadrista: estratégia e antecipação de cenários.
+🎼 Compositor: criatividade com estrutura.
+➗ Pensamento matemático: gosto por modelagem e problemas difíceis.
